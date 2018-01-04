@@ -4,8 +4,8 @@ var allNames = femaleNames.concat(maleNames);
 var newName = 'Marian';
 function pushNames() {
   if (allNames.indexOf(newName) === -1) {
-  return allNames.push(newName);
+      allNames.push(newName);
   }
+    return allNames;
 }
-console.log(allNames);
 console.log(pushNames());
